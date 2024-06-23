@@ -1,0 +1,12 @@
+first you will need to run:
+sudo apt install acpi
+
+acpi is a tool to mointor the system and more!
+use (acpi --help) to know more.
+you will use notify-send command also.
+
+TASK: We need to send notification to the system when the battery percentage is below 
+50% (infinite process) and wait 5 seconds if the user plugin the charger
+then terminate the process, otherwise just continue running.
+
+TEST: plugin your charger and test the code, then unplug it and test the script also

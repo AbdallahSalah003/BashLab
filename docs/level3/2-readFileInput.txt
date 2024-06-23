@@ -1,0 +1,2 @@
+TASK: Use loops to read names from a file, when your name appear print Hello before it
+the input file will be taken from terminal. 

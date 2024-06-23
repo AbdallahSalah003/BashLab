@@ -1,0 +1,6 @@
+first you will need to run:
+sudo apt install rofi dmenu
+
+Rofi is a simple gui to select between multiple options and more!
+
+TASK: We need to create a file containing all absolute paths of your current projects, then use rofi to choose between these paths and then open the dir on your vs code also make add paths functionallity through rofi gui also.

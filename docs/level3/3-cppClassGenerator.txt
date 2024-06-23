@@ -1,0 +1,43 @@
+TASK: Create a script to take user name, class name, namespace name, then 
+creates two files .hpp and .cpp files.
+
+.hpp file structure: 
+/********************************************/
+//                                          
+//              CopyRight ${name}                 
+//                                          
+/********************************************/
+/*
+author : Abdallah Salah
+date :`date`
+brief:
+*/
+namespace $namespace {
+class ${classname}{
+
+public:
+    ${classname}();
+    ~${classname}();
+private:
+
+};
+}
+
+
+.cpp file structure: 
+/********************************************/
+//                                          
+//              CopyRight ${name}                 
+//      
+/********************************************/
+/*
+author : Abdallah Salah
+date :`date`
+brief:
+*/
+#include \"${classname}.hpp\"
+
+namespace $namespace {
+    ${classname}::${classname}(){}
+    ${classname}::~${classname}(){}
+}
