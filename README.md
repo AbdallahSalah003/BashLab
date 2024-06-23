@@ -20,4 +20,4 @@ There are three levels, the first one is beginner friendly, second level is a li
 
 ## Contributing
 
-Contributions are welcome! You can add scripts and specifiy the level also.
+Contributions are welcome! You can add scripts and specifiy the level also, and finally give .txt file explain the task and tools used.
