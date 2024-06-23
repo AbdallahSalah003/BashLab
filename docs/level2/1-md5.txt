@@ -1,0 +1,5 @@
+md5sum is a command generates a SHA for the file content.
+you can use that command in your script.
+
+TASK: Having two different names files we need to know if they 
+have the same contnet or not.

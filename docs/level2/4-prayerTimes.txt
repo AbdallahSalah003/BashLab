@@ -1,0 +1,33 @@
+You will use this endpoint api
+https://api.aladhan.com/v1/timingsByCity/23-06-2024?city=Giza&country=Arab+Rebuplic+Egypt
+to get the prayer time 
+
+now, install 
+sudo apt install jq
+which is a json parser read (jq --help)
+
+TASK: after get the api response, parse it using jq 
+and output: 
+status code
+date.timings
+
+OUTPUT SAMPLE:
+❯ bash 4-prayerTime.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1243    0  1243    0     0   1418      0 --:--:-- --:--:-- --:--:--  1417
+Status Code is :
+200
+{
+  "Asr": "16:33",
+  "Dhuhr": "12:58",
+  "Fajr": "04:09",
+  "Firstthird": "23:18",
+  "Imsak": "03:59",
+  "Isha": "21:33",
+  "Lastthird": "02:37",
+  "Maghrib": "20:00",
+  "Midnight": "00:57",
+  "Sunrise": "05:55",
+  "Sunset": "20:00"
+}

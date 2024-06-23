@@ -1,0 +1,3 @@
+TASK: based on functions create a simple calculator that can
+add, sub, divide, multiply, power
+takes the input from the user.

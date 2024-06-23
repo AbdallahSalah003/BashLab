@@ -1,0 +1,1 @@
+TASK: Just navigate to scripts/ and read the shell script its some array operations

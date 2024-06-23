@@ -1,0 +1,13 @@
+TASK: we want to know what is the ips which is up/exists
+
+use the command ping (ping --help) :)
+
+Also take the number of ping and the timeout from the user
+
+OUTPUT SAMPLE: 
+❯ bash 8-connectedIps.sh 1 2
+Host 192.168.1.1 is up
+Host 192.168.1.2 is up
+Host 192.168.1.3 is up
+Host 192.168.1.4 is up
+Host 192.168.1.5 is down

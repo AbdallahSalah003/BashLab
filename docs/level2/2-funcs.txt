@@ -1,0 +1,4 @@
+TASK: create a function using Bash that takes two arguments from terminal
+and output:
+Welcome, {name}
+You want to drink, {dring}
